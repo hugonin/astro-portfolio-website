@@ -1,0 +1,36 @@
+---
+import '../styles/nav.css'     
+import logo from "../assets/logo.png"
+---
+
+
+  <header>
+        <div class="header-logo"  >
+            <img src={logo} alt="logo-image">
+        </div>
+
+       <div class="overlay overlay-slide-left" id="overlay">
+        <nav>
+            <ul>
+                <li id="nav-1" class="slide-out-1"><a href="#home">Home</a></li>
+                <li id="nav-2" class="slide-out-2"><a href="#services">My Services</a></li>
+                <li id="nav-3" class="slide-out-3"><a href="#about">About</a></li>
+                <li id="nav-4" class="slide-out-4"><a href="#work">Projects</a></li>
+                <li id="nav-5" class="slide-out-5"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+       </div> 
+       
+         <!-- Menu Bars -->
+         <div class="menu-bars" id="menu-bars">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </header>
+
+
+
+<script hoist>
+    import '../js/nav.js';
+</script>

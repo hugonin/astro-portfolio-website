@@ -1,0 +1,55 @@
+---
+import "../styles/footer.css"      
+import logo from "../assets/logo.png"
+---
+
+ <footer class="site-footer">
+ 
+    <div class="footer-main">
+    <div class="footer-logo__container">
+         <a href="/"  >
+            <img src={logo} alt="logo-image" class="logo" >
+        </a>
+    </div>
+       
+        <p class="footer-fineprint">
+          © {new Date().getFullYear()}  Designed & built with <a href="https://astro.build/" class="footer-fineprint__astro">Astro</a> by Jean-Hugues DOUMBE KINGUE
+           {` `}
+        </p>
+    </div>
+    <ul class="social-list">
+            <li class="social-list__item">
+                <a
+                 href="https://www.linkedin.com/in/jhdoumbekingue/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="social-list__link"
+                 >
+                <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a
+                 href="https://twitter.com/JhDoumbe"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="social-list__link"
+                 >
+                <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a
+                 href="https://github.com/hugonin"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="social-list__link"
+                 >
+                <i class="fab fa-github"></i>
+                </a>
+            </li>              
+             
+     </ul>
+    </footer>    

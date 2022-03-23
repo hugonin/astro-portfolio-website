@@ -1,0 +1,15 @@
+---
+import "../styles/hero.css"  
+const { greeting, name, position } = Astro.props
+---
+
+    <section class="hero">
+        <div class="container flow">
+            <h1 class="section__title section__title--intro">{greeting} <strong>{name}</strong> </h1>
+            <p class="section__subtitle section__subtitle--intro">{position}</p>
+            <a href="#about" class="btn btn-hero">About me</a>
+ 
+        </div>
+
+     
+</section>

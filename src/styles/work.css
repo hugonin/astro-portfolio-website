@@ -1,0 +1,86 @@
+
+/* My Work */
+
+.my-work {
+    background-color: var(--clr-dark-1);
+    color: var(--clr-light-1);
+    text-align: center;    
+}
+
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+}
+
+
+.portfolio__main-entry {
+    display: grid;
+    gap: 1em;
+    margin-bottom: 1em;
+    grid-template-areas:
+      "image"
+      "title"
+      "description"
+      "tool"
+      "button";
+  }
+  
+.portfolio__image-entry{
+    grid-area: image;
+    margin-bottom: 1em;
+    width: 100%;
+    object-fit: cover;
+}
+  
+.portfolio__title-entry {
+    grid-area: title;
+    color: var(--clr-light-1);
+    font-size: 1.5rem;
+    text-decoration: none;
+ }
+ 
+
+.portfolio__subtitle-entry {
+  grid-area: description;
+  color: var(--clr-light-1);
+  padding: .25em 1em;
+  margin-bottom: 1em;
+}
+
+.portfolio__tools-entry {
+  grid-area: tool;
+  color: var(--clr-light-1);
+}
+
+.portfolio__tools-title{
+  color: var(--clr-accent-1);
+  font-weight: var(--fw-bold);
+}
+
+.portfolio-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1em;
+    
+}
+
+
+.btn-code {
+  background: var(--clr-accent-2);
+}
+
+@media (min-width: 600px) {
+  .portfolio__main-entry{
+    grid-template-areas:
+      "title image"
+      "description image"
+      "tool image"
+      "button image";
+    grid-column-gap: 4em;
+    grid-template-columns: 1fr 40%;
+    grid-template-rows: min-content min-content min-content 1fr;
+  }
+}
+  

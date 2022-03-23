@@ -1,0 +1,32 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+import Hero from "../components/Hero.astro"
+import Services from "../components/Services.astro"
+import About from "../components/About.astro"
+import Work from "../components/Work.astro"
+import Contact from "../components/Contact.astro"
+---
+<BaseLayout title="Mon Portfolio">
+    <Hero 
+        greeting="Hello, I am" 
+        name="Jean-Hugues D.K." 
+        position="developer" 
+        />
+    <Services
+        title="What I do"
+        cta="See My Work"
+        />
+    <About 
+        title="Who I am" 
+        subtitle="Freelance web developer based in Lyon"
+        />
+    <Work
+        title="My work"
+        subtitle="A selection of my range of work"
+        tools="Development Tools"
+        liveLink="See Live"
+        codeLink="Source Code"
+
+        />
+    <Contact />    
+</BaseLayout>

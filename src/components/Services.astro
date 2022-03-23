@@ -1,0 +1,19 @@
+---
+import "../styles/services.css"
+import data from "../data/services.json"
+const { title, cta } = Astro.props
+---
+
+  <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">{title}</h2>
+        <div class="services">
+        {data.map(service => (
+            <div class="service">
+                <h3>{service.title}</h3>
+                <p>{service.content}</p>          
+            </div>
+            ))}
+        </div> 
+
+        <a href="#work" class="btn">{cta}</a>
+    </section>

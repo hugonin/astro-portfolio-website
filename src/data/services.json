@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Responsive websites",
+        "content" : "I know how to effectively create the structure of a website using semantic HTML, and style websites with CSS and responsive layouts. I have developed an understanding of different use cases for CSS Grid and Flexbox, and structure the layout of a web page using grid columns and rows."
+    },
+    {
+        "title": "Web Applications",
+        "content" : "I develop interactive websites and UI applications using Javascript, and frameworks like React and Gatsby. I am able to connect a web application to backend server using Javascript, and automate application build and deployment using Webpack"
+    },
+    {
+        "title": "UI Design",
+        "content" : "I am heavily involved in the planning phase of a project, working with the client and deciding what the goals are. I use the collected informations from that phase and make it to reality. I am involved in user testing, learning from the users and improving the designs."
+    }
+]

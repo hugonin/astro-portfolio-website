@@ -1,0 +1,48 @@
+---
+import "../styles/work.css"  
+import data from "../data/projects.json"
+const { title, subtitle, tools, liveLink, codeLink} = Astro.props
+---
+
+ <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">{title}</h2>
+        <p class="section__subtitle section__subtitle--work">{subtitle}</p>
+
+        <div class="portfolio">
+          <div class="portfolio__main-entry">
+        {data.map(project =>(
+            <div>
+                <img src={project.image} alt={project.alt} class="portfolio__image-entry" />
+            </div>
+            <div>
+                <h3 class="portfolio__title-entry">{project.title}</h3>
+                <p class="portfolio__subtitle-entry">{project.description}</p>
+                <p class="portfolio__tools-entry"> <span class="portfolio__tools-title" >{tools}: </span>{project.tools}</p>
+                <div class="portfolio-btn">
+                  <a
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn"
+                   >
+                  {liveLink}
+                  </a>
+                  <a
+                    href={project.urlCode}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-code"
+                  >
+                  {codeLink}
+                </a>
+                </div>
+                <p class="portfolio-btn">
+ 
+                </p>
+            </div>
+        ))}
+            
+          </div>
+
+        </div>
+    </section>

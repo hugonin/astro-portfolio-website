@@ -1,0 +1,103 @@
+.contact {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .contact-form {
+    display: grid;
+  }
+  
+  .first-subtitle-contact {
+    color: var(--clr-accent-1);
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 2em;
+  }
+  
+  label {
+    font-weight: 900;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 0.5em;
+    padding: 0.4em;
+    font-family: inherit;
+  }
+  
+  textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+ 
+  
+  .error-message {
+    color: red;
+    font-size: 0.75em;
+  }
+  
+  .checkbox-text {
+    font-weight: lighter;
+  }
+  
+  .checkbox-button {
+    margin-right: 0.5em;
+  }
+  
+  @media (min-width: 600px) {
+    .contact {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "title form"
+        "subtitle form";
+      grid-column-gap: 2em;
+    }
+  
+    .title-contact {
+      grid-area: title;
+    }
+  
+    .first-subtitle-contact {
+      grid-area: subtitle;
+      grid-column: 1 / 2;
+      grid-row: 1;
+      position: relative;
+      margin-top: 2.5em;
+    }
+  
+    .contact-form {
+      grid-area: form;
+      display: flex;
+      flex-flow: column nowrap;
+      position: relative;
+      z-index: 2;
+    }
+  
+    .field-input {
+      grid-column: 1;
+    }
+  
+    .fname-label {
+      grid-column: 1;
+    }
+  
+    .lname-label {
+      grid-column: 1;
+    }
+  
+    .email-label {
+      grid-column: 1;
+    }
+  
+    .message-label,
+    .message-textarea {
+      grid-column: span 2;
+    }
+  
+    .btn {
+      grid-column: 2;
+    }
+  }
+  

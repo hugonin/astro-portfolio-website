@@ -1,43 +1,37 @@
-# Astro Starter Kit: Minimal
 
-```
-npm init astro -- --template minimal
-```
+# Portfolio Website
+> Multi-section portfolio website built with Astro
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## General info
+This project is built upon Astro Starter Kit: Minimal 
 
-## 🚀 Project Structure
+## Technologies
+* Astro 0.24.3
 
-Inside of your Astro project, you'll see the following folders and files:
 
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Features
+List of features:
+* Dynamic and responsive navigation
+* Portfolio
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Status
+Project is: _in progress_  
 
-## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+## Inspiration
+This project is based on *Build and deploy your portfolio* course by [@kevin-powell](https://github.com/kevin-powell) part of Scrimba Front-End Developer Career Path
 
-| Command           | Action                                       |
-|:----------------  |:-------------------------------------------- |
-| `npm install`     | Installs dependencies                        |
-| `npm run dev`     | Starts local dev server at `localhost:3000`  |
-| `npm run build`   | Build your production site to `./dist/`      |
-| `npm run preview` | Preview your build locally, before deploying |
+## Contact
+Created by [@hugonin](https://github.com/hugonin) - feel free to contact me!
 
-## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://github.com/withastro/astro) or jump into our [Discord server](https://astro.build/chat).

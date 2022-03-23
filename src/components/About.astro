@@ -1,0 +1,21 @@
+---
+import "../styles/about.css"    
+import aboutImage from "../assets/jean-hugues-profil-4.jpg"
+import data from "../data/about.json"
+const { title, subtitle  } = Astro.props
+
+---
+
+  <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">{title}</h2>
+        <p class="section__subtitle section__subtitle--about"> {subtitle}</p>
+
+        <div class="about-me__body">
+        {data.map(about => (
+          <div class="about-me__content">
+           {about.content}
+          </div> 
+        ))}
+        </div>
+        <img src={aboutImage} alt="Jean taking the pose" class="about-me__img">
+    </section>    
