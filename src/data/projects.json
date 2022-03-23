@@ -4,7 +4,7 @@
         "slug": "portfolio-website",
         "url": "https://gatsbyportfoliowebsitemain.gatsbyjs.io/",
         "urlCode":"https://github.com/hugonin/gatsby-portfolio-website",
-        "image": "../src/assets/desktop-portfolio.png",
+        "image": "../../desktop-portfolio.png",
         "alt": "",
         "description": "Multi-section portfolio website built with Gatsby and Tailwind CSS",
         "tools": ["Gatsby - ","React - ","Tailwind CSS"]
@@ -14,7 +14,7 @@
         "slug": "personnal-blog",
         "url": "https://mygatsbyblog34579.gatsbyjs.io/",
         "urlCode":"https://github.com/hugonin/my-gatsby-blog",
-        "image": "../src/assets/desktop_blog_11.png",
+        "image": "../../desktop_blog_11.png",
         "alt": "",
         "description": "Personal blog using a Static Site Generator while ensuring website’s speed and performance optimized with JAMStack",
         "tools": ["Gatsby - ","React - ","GraphQL"]
@@ -25,7 +25,7 @@
         "slug": "jeeash-clothing",
         "url": "https://jeeash-live.herokuapp.com/",
         "urlCode":"https://github.com/hugonin/crwn-clothing",
-        "image": "../src/assets/desktop_store_1.png",
+        "image": "../../desktop_store_1.png",
         "alt": "",
         "description": "E-commerce project built with React",
         "tools": ["React - ","Firebase - ", "Stripe API"]
@@ -35,7 +35,7 @@
         "slug": "monsters-rolodex",
         "url": "https://hugonin.github.io/monsters-rolodex/",
         "urlCode":"https://github.com/hugonin/monsters-rolodex",
-        "image": "../src/assets/desktop_monsters_1.png",
+        "image": "../../desktop_monsters_1.png",
         "alt": "",
         "description": "Monsters Rolodex is a react web app which filters out the monsters cards by what we type in the searchbox",
         "tools": ["React - ", "JSX "]

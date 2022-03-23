@@ -23,16 +23,17 @@
     grid-area: main;
 }
 
-.footer-fineprint,
-.footer-fineprint__astro {
+.footer-fineprint {
   font-size: .85rem;
   margin-top: 5em;
-  color: var(--clr-light-1);;
+  color: var(--clr-light-1);
   opacity: .4;
 }
 
 .footer-fineprint__astro  {
   text-decoration: none;
+  color: var(--clr-light-2);
+  opacity: .6;
 }
 
 
