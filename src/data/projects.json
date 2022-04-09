@@ -10,6 +10,17 @@
         "tools": ["Gatsby - ","React - ","Tailwind CSS"]
     },
     {
+        "title": "Monsters Rolodex",
+        "slug": "monsters-rolodex",
+        "url": "https://monsters-rolodex-site.web.app/",
+        "urlCode":"https://github.com/hugonin/monsters-rolodex-v2",
+        "image": "../../desktop-monsters-v2.jpg",
+        "alt": "",
+        "description": "Monsters Rolodex is a simple react web app built with Tailwind and Firebase as database",
+        "tools": ["React - ", "Tailwind - ", "Firebase"]
+    },
+    
+    {
         "title": "My Gatsby Blog",
         "slug": "personnal-blog",
         "url": "https://mygatsbyblog34579.gatsbyjs.io/",
@@ -29,16 +40,7 @@
         "alt": "",
         "description": "E-commerce project built with React",
         "tools": ["React - ","Firebase - ", "Stripe API"]
-    },
-    {
-        "title": "Monsters Rolodex",
-        "slug": "monsters-rolodex",
-        "url": "https://hugonin.github.io/monsters-rolodex/",
-        "urlCode":"https://github.com/hugonin/monsters-rolodex",
-        "image": "../../desktop_monsters_1.png",
-        "alt": "",
-        "description": "Monsters Rolodex is a react web app which filters out the monsters cards by what we type in the searchbox",
-        "tools": ["React - ", "JSX "]
     }
+   
    
 ]
